@@ -1,3 +1,9 @@
-#!/bin/bash
-init main (){
-strcpy(str, "Programming is like building a multilingual puzzle") puts(str); } 
+#include <stdio.h>
+int main (void)
+{
+    put ("Programming is like building a multilingual puzzle\n");
+    
+    return(0);
+}
+
+
