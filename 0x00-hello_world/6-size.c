@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - printf
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	printf("Size of int: %zu bytes\n", sizeof(char));
