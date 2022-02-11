@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include <tiempo.h>
+#include <time.h>
+#include <stdlib.h>
+
 /**
  * main - if, else if printf
  *
@@ -8,8 +10,9 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
-	n = rand() - RAD_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
