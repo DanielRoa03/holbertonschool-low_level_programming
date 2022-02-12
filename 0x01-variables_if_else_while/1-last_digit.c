@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - print the last digit of n and a message
+ * main - print the last digit of n with conditionals
  *
  * Return: 0
  */
